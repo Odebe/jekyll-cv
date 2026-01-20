@@ -1,108 +1,129 @@
-name: John Doe
-support_dark_mode: true
-fork: true
+name: Mikhail Dmitriev
+support_dark_mode: false
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
+  email: derpiranha@gmail.com
+  github: Odebe
+  linkedin: mikhail-dmitriev-6aa644223
+  telegram: odebe
   phone: 
   gitlab: 
-  twitter: 
+  twitter:
 
 languages:
   - idiom: English
   - idiom: Russian
-  - idiom: French
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: Computer Science <br> in Economics
+    university: Moscow Power <br> Engineering Institute
+    time: 2017 – 2020
 
 skills:
   - category: Backend
     skill: 
-      - Go
+      - Ruby
+      - Ruby on Rails
       - Rust
+      - Crystal
   - category: Frontend
     skill:
-      - React
-      - Typescript
+      - Hotwire Stimulus
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
+      - Docker Compose
+      - Ansible
 
 # Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+profile:
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Ruby Developer
+    time: September 2021 – November 2024
+    company: Evrone
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
+      Developed a custom ERP system tailored for an auto dealership business.
+      
+      <ul>
+        <li>Built an auction system featuring automated bidding functionality</li>
+        <li>Architected communication workflows with site services using RabbitMQ</li>
+        <li>Refactored and optimized PDF rendering processes</li>
+        <li>Integrated an acquiring service</li>
+        <li>Created and maintained a variety of analytical and operational reports</li>
+        <li>Enhanced and provided ongoing support for a GraphQL API</li>
+        <li>Managed and improved integration with AMI Asterisk for telephony services</li>
+      </ul>
+      
+      Achievements
+      <ul>
+        <li> Optimized some problematic SQL queries with drastic performance improvements</li>
+      </ul>
+    technologies_used: |
+      Ruby, Ruby on Rails, GraphQL, PostgreSQL, RabbitMQ, Docker, Docker Compose, DelayedJob
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Ruby Developer
+    time: April 2018 – September 2021
+    company: AT Consulting
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Contributed to the development of a B2B cloud platform.
+      
+      <ul>
+        <li>Enhanced and maintained the billing system for improved accuracy and reliability</li>
+        <li>Integrated virtualization systems, including OpenStack, VMware vCloud Director, and Windows Azure Pack</li>
+        <li>Developed integrations with backup solutions such as Veeam Backup & Replication</li>
+        <li>Connected the platform with the Hitachi Content Platform for content management</li>
+      </ul>
+      
+      Designed and implemented a message bus for inter-service communication.
+      
+      <ul>
+        <li>Built a system from scratch enabling asynchronous communication between subsystems within a large-scale project</li>
+        <li>Successfully led a small team of junior developers, ensuring delivery of key project milestones</li>
+        <li>Engineered service integrations within isolated network environments</li>
+      </ul>
+      
+      Developed an electronic document management system to streamline operations.
+      <ul>
+        <li>Provided support and improvements to a large legacy monolith application</li>
+      </ul>
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+    technologies_used: |
+      Ruby,
+      Ruby on Rails,
+      Percona,
+      Sinatra,
+      Statemachines,
+      Docker,
+      Docker Compose,
+      RabbitMQ, 
+      Grape
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+speaks:
+  - title: Ruby 3.0 Ractors
+    conference: Saint P RubyConf 21
+    year: 2021
+    link: https://www.youtube.com/watch?v=MIX8S3n9Nwc
+  - title: Crystal workshop
+    conference: Saint P Ruby Community
+    year: 2019
+    link: https://www.youtube.com/watch?v=6GGSVIHjFHM
 
 projects:
-  - title: Cool Project 
-    link: #
+  - title: CHIP-8
+    links:
+      - title: Rust
+        link: https://github.com/Odebe/rusty-chip-8
+      - title: Crystal
+        link: https://github.com/Odebe/chip-8-crystal
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+        CHIP-8 emulator written in Rust and Crystal.
 
-  - title: Cool Project 
-    link: #
+  - title: murmur-ruby
+    link: https://github.com/Odebe/murmur-ruby
+    links: []
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Mumble VOIP Server written in Ruby

@@ -5,9 +5,26 @@
     {% for p in projects %}
         <div class="project">
             <span>
-                <a class="project-link" href="{{p.link}}">
+                {% assign links = p.links %}
+                {% if links.size != 0 %}
+                    <span class="project-link">
+                        {{p.title}}
+                    </span>
+
+                    {% for l in links %}
+                        <a class="project-link" href="{{l.link}}">
+                            {{l.title}}
+                        </a>
+
+                        {% if links.last != l %}
+                            ,
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                  <a class="project-link" href="{{p.link}}">
                     {{p.title}}
-                </a>
+                  </a>
+                {% endif %}
             </span>
             <span class="details">- {{p.details}}</span>
         </div>

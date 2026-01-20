@@ -1,8 +1,8 @@
-title: CV | A jekyll template
-description:  A beautiful template for your CV.
+title: CV Mikhail Dmitriev
 url: https://jekyll-cv.stavrospanakakis.com
 baseurl: ''
 theme_skin: blue
+
 
 sass:
   sass_dir: _sass

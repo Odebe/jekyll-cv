@@ -1,0 +1,16 @@
+{% assign speaks = site.data.data.speaks %}
+{% if speaks %}
+<section class="speaks">
+    <h2 class="title">Speaker</h2>
+    <div class="speak-items">
+        {% for speak in speaks%}
+        <div class="speak-item">
+            <div class="speak-title">
+                <a href="{{speak.link}}">{{speak.title}}</a>
+            </div>
+            <div class="conference">{{speak.conference}}</div>
+        </div>
+        {%endfor%}
+    </div>
+</section>
+{% endif %}
